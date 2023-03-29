@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    
+    background-color: #f5f6f6;
+}
+
+.create-container {
+    width: 600px;
+    height: auto;
+    margin: 40px auto;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.create-container h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.create-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-container form fieldset {
+    display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  border-radius: 5px;
+  width: 400px;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.create-container form select {
+    height: 35px;
+    width: 500px;
+    font-size: 16px;
+    padding: 0 14px;
+}
+
+.create-container form .text {
+    width: 500px;
+    height: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 0 15px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+select {
+    border-bottom: 2px solid rgb(190, 185, 185);
+}
+
+.create-container form .text{
+    border-bottom: 2px solid rgb(190, 185, 185);
+}
+
+.create-container form button {
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #4070f4;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: white;
+}
+

@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* vertical-align: middle; */
+}
+
+.employeeList {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+} 
+
+.employeeList .search  {
+    /* width: 500px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.employeeList .search input {
+    width: 600px;
+    height: 35px;
+    font-size: 16px;
+    padding: 0 15px;
+    outline: none;
+}
+
+.employeeList .search button {
+    padding: 8px;
+    font-size: 16px;
+    width: 100px;
+    background-color: #4070f4;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.employeeList .search .create {
+    margin-left: 120px;
+    width: 200px;
+}
+
+tbody tr:hover {
+    background-color: rgb(235, 222, 222);
+}
+
+thead tr {
+    background-color: rgb(204, 227, 236);
+}
+
+table, th, td {
+    padding: 16px;
+}
+
+.data-table {
+  width: 100%;
+  max-height: calc(89% - 12px);
+  background-color: #fffb;
+  margin: 12px 10px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+ 
+}
+
+td .edit-button {
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: green;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+td .delete-button {
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(228, 15, 15);
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* =============================== */
+
+.edit-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-header {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.edit-form input {
+    height: 35px;
+    margin-bottom: 15px;
+    width: 400px;
+    font-size: 18px;
+    padding: 0 15px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.edit-form input{
+    border-bottom: 2px solid rgb(191, 188, 188);
+}
+
+.edit-form button {
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #4070f4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

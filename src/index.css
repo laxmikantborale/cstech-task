@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.dashboard{
+  background-color: black;
+  height: 100vh;
+}
+
+
+.dashboard h1 {
+  text-align: center;
+  font-size: 25px;
+  font-family: serif;
+  /* margin-top: 40px; */
+  color: white;
+}
+
+.dashboard .iamge {
+  height: 450px;
+  width: 600px;
+  margin: 0 auto;
+  /* margin-bottom: 20px; */
+}
+
+.dashboard .iamge img {
+  height: 450px;
+  width: 600px;
+  
+}
+

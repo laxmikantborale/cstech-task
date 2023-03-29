@@ -1,0 +1,35 @@
+.navbar nav {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(165, 221, 243);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left .logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+}
+
+.navbar nav h2 {
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.navbar nav .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav .centre {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav .right {
+    display: flex;
+    align-items: center;
+}
